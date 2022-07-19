@@ -1,0 +1,47 @@
+.Body{
+    flex: 0.83;
+    background: linear-gradient(rgb(91,87,115),rgba(0,0,0,1));
+    color: #fff;
+    height: 100vh;
+    overflow-y: overlay;
+}
+.body__info{
+    display: flex;
+    padding: 10px;
+    align-items: flex-end;
+}
+.body__info >img{
+    width: 18vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0,0,0,0.5);
+}
+.body__infoText{
+    margin-left: 20px;
+    flex: 1;
+}
+.body__infoText >strong{
+    font-size: 14px;  
+}
+.body__infoText >h2{
+    font-size: 98px;
+    margin-bottom: 10px;
+}
+.body__icons{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+.body_Icon{
+    cursor: pointer;
+    margin-right:10px ;
+}
+.body_Icon:first-child{
+    font-size: 50px !important;
+}
+.Icon_green{
+    color: rgb(4, 180, 4);
+}
+.body__songs{
+    margin-bottom: 150px;
+    margin-top: 30px;
+}

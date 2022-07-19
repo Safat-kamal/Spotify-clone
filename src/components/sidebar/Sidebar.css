@@ -1,0 +1,38 @@
+.sidebar{
+    flex:0.17;
+    background-color: #040404;
+    min-width: 180px;
+    height: 100vh;
+    padding: 10px;
+    color: #fff;
+}
+.logo{
+    margin-right: auto;
+    height: 40px;
+    padding: 10px;
+}
+.sidbar__options{
+    color: grey;
+    cursor: pointer;
+    transition: 200ms color ease-in-out;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.sidbar__options:hover{
+    color: #fff;
+}
+.sidebar_optionsIconn{
+padding:  0 10px;
+}
+.sidebar__playlistTitle{
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 10px 0 0 20px;
+}
+.sidebar >hr{
+    border: 1px solid #282828;
+    width: 90%;
+    height: 0.1px;
+    margin: 10px auto;
+}

@@ -1,0 +1,9 @@
+.body__header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+}
+.body__header >p {
+    margin-left: 8px;
+}
